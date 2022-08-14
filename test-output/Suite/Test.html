@@ -1,0 +1,351 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Aug 14 16:36:04 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (732 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestNGkeyword.InvocationCount_Study.demo()'><b>demo</b><br>Test class: TestNGkeyword.InvocationCount_Study<br/>
+<a href="#Output-221111433" onClick='toggleBox("Output-221111433", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-221111433" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-221111433">
+TC execution is start  demo<br/>
+TC execution is start  demo<br/>
+demo is running<br/>
+TC execution is Successfull  demo<br/>
+TC execution is Successfull  demo<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGkeyword.InvocationCount_Study@29215f06</td></tr>
+<tr>
+<td title='TestNGkeyword.TimeoutStudy.b()'><b>b</b><br>Test class: TestNGkeyword.TimeoutStudy<br/>
+<a href="#Output-1473981203" onClick='toggleBox("Output-1473981203", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1473981203" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1473981203">
+TC execution is start  b<br/>
+TC execution is start  b<br/>
+i am B method<br/>
+TC execution is Successfull  b<br/>
+TC execution is Successfull  b<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGkeyword.TimeoutStudy@2d710f1a</td></tr>
+<tr>
+<td title='TestNGkeyword.InvocationCount_Study.demo()'><b>demo</b><br>Test class: TestNGkeyword.InvocationCount_Study<br/>
+<a href="#Output-798310141" onClick='toggleBox("Output-798310141", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-798310141" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-798310141">
+TC execution is start  demo<br/>
+TC execution is start  demo<br/>
+demo is running<br/>
+TC execution is Successfull  demo<br/>
+TC execution is Successfull  demo<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGkeyword.InvocationCount_Study@29215f06</td></tr>
+<tr>
+<td title='TestNGkeyword.EnabledStudy.e()'><b>e</b><br>Test class: TestNGkeyword.EnabledStudy<br/>
+<a href="#Output-684566052" onClick='toggleBox("Output-684566052", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-684566052" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-684566052">
+TC execution is start  e<br/>
+TC execution is start  e<br/>
+i am E method<br/>
+TC execution is Successfull  e<br/>
+TC execution is Successfull  e<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGkeyword.EnabledStudy@957e06</td></tr>
+<tr>
+<td title='TestNGkeyword.InvocationCount_Study.myMethod()'><b>myMethod</b><br>Test class: TestNGkeyword.InvocationCount_Study<br/>
+<a href="#Output-347978868" onClick='toggleBox("Output-347978868", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-347978868" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-347978868">
+TC execution is start  myMethod<br/>
+TC execution is start  myMethod<br/>
+my method is runnung<br/>
+TC execution is Successfull  myMethod<br/>
+TC execution is Successfull  myMethod<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGkeyword.InvocationCount_Study@29215f06</td></tr>
+<tr>
+<td title='TestNGkeyword.TimeoutStudy.d()'><b>d</b><br>Test class: TestNGkeyword.TimeoutStudy<br/>
+<a href="#Output-1571798597" onClick='toggleBox("Output-1571798597", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1571798597" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1571798597">
+TC execution is start  d<br/>
+TC execution is start  d<br/>
+i am D method<br/>
+TC execution is Successfull  d<br/>
+TC execution is Successfull  d<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGkeyword.TimeoutStudy@2d710f1a</td></tr>
+<tr>
+<td title='TestNGkeyword.TimeoutStudy.a()'><b>a</b><br>Test class: TestNGkeyword.TimeoutStudy<br/>
+<a href="#Output-1197251633" onClick='toggleBox("Output-1197251633", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1197251633" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1197251633">
+TC execution is start  a<br/>
+TC execution is start  a<br/>
+i am A method<br/>
+TC execution is Successfull  a<br/>
+TC execution is Successfull  a<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGkeyword.TimeoutStudy@2d710f1a</td></tr>
+<tr>
+<td title='TestNGkeyword.TimeoutStudy.e()'><b>e</b><br>Test class: TestNGkeyword.TimeoutStudy<br/>
+<a href="#Output-575935098" onClick='toggleBox("Output-575935098", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-575935098" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-575935098">
+TC execution is start  e<br/>
+TC execution is start  e<br/>
+i am E method<br/>
+TC execution is Successfull  e<br/>
+TC execution is Successfull  e<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGkeyword.TimeoutStudy@2d710f1a</td></tr>
+<tr>
+<td title='TestNGkeyword.InvocationCount_Study.myMethod()'><b>myMethod</b><br>Test class: TestNGkeyword.InvocationCount_Study<br/>
+<a href="#Output-1518331471" onClick='toggleBox("Output-1518331471", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1518331471" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1518331471">
+TC execution is start  myMethod<br/>
+TC execution is start  myMethod<br/>
+my method is runnung<br/>
+TC execution is Successfull  myMethod<br/>
+TC execution is Successfull  myMethod<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGkeyword.InvocationCount_Study@29215f06</td></tr>
+<tr>
+<td title='TestNGkeyword.InvocationCount_Study.myMethod()'><b>myMethod</b><br>Test class: TestNGkeyword.InvocationCount_Study<br/>
+<a href="#Output-307829448" onClick='toggleBox("Output-307829448", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-307829448" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-307829448">
+TC execution is start  myMethod<br/>
+TC execution is start  myMethod<br/>
+my method is runnung<br/>
+TC execution is Successfull  myMethod<br/>
+TC execution is Successfull  myMethod<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGkeyword.InvocationCount_Study@29215f06</td></tr>
+<tr>
+<td title='TestNGkeyword.InvocationCount_Study.myMethod()'><b>myMethod</b><br>Test class: TestNGkeyword.InvocationCount_Study<br/>
+<a href="#Output-940857381" onClick='toggleBox("Output-940857381", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-940857381" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-940857381">
+TC execution is start  myMethod<br/>
+TC execution is start  myMethod<br/>
+my method is runnung<br/>
+TC execution is Successfull  myMethod<br/>
+TC execution is Successfull  myMethod<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGkeyword.InvocationCount_Study@29215f06</td></tr>
+<tr>
+<td title='TestNGkeyword.EnabledStudy.c()'><b>c</b><br>Test class: TestNGkeyword.EnabledStudy<br/>
+<a href="#Output-352367347" onClick='toggleBox("Output-352367347", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-352367347" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-352367347">
+TC execution is start  c<br/>
+TC execution is start  c<br/>
+i am C method<br/>
+TC execution is Successfull  c<br/>
+TC execution is Successfull  c<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGkeyword.EnabledStudy@957e06</td></tr>
+<tr>
+<td title='TestNGkeyword.InvocationCount_Study.demo()'><b>demo</b><br>Test class: TestNGkeyword.InvocationCount_Study<br/>
+<a href="#Output-258535644" onClick='toggleBox("Output-258535644", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-258535644" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-258535644">
+TC execution is start  demo<br/>
+TC execution is start  demo<br/>
+demo is running<br/>
+TC execution is Successfull  demo<br/>
+TC execution is Successfull  demo<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGkeyword.InvocationCount_Study@29215f06</td></tr>
+<tr>
+<td title='TestNGkeyword.EnabledStudy.d()'><b>d</b><br>Test class: TestNGkeyword.EnabledStudy<br/>
+<a href="#Output-947553027" onClick='toggleBox("Output-947553027", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-947553027" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-947553027">
+TC execution is start  d<br/>
+TC execution is start  d<br/>
+i am D method<br/>
+TC execution is Successfull  d<br/>
+TC execution is Successfull  d<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGkeyword.EnabledStudy@957e06</td></tr>
+<tr>
+<td title='TestNGkeyword.EnabledStudy.b()'><b>b</b><br>Test class: TestNGkeyword.EnabledStudy<br/>
+<a href="#Output-1787189503" onClick='toggleBox("Output-1787189503", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1787189503" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1787189503">
+TC execution is start  b<br/>
+TC execution is start  b<br/>
+i am B method<br/>
+TC execution is Successfull  b<br/>
+TC execution is Successfull  b<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGkeyword.EnabledStudy@957e06</td></tr>
+<tr>
+<td title='TestNGkeyword.InvocationCount_Study.myMethod()'><b>myMethod</b><br>Test class: TestNGkeyword.InvocationCount_Study<br/>
+<a href="#Output-1093864783" onClick='toggleBox("Output-1093864783", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1093864783" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1093864783">
+TC execution is start  myMethod<br/>
+TC execution is start  myMethod<br/>
+my method is runnung<br/>
+TC execution is Successfull  myMethod<br/>
+TC execution is Successfull  myMethod<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGkeyword.InvocationCount_Study@29215f06</td></tr>
+<tr>
+<td title='TestNGkeyword.TimeoutStudy.c()'><b>c</b><br>Test class: TestNGkeyword.TimeoutStudy<br/>
+<a href="#Output-107915280" onClick='toggleBox("Output-107915280", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-107915280" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-107915280">
+TC execution is start  c<br/>
+TC execution is start  c<br/>
+i am C method<br/>
+TC execution is Successfull  c<br/>
+TC execution is Successfull  c<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNGkeyword.TimeoutStudy@2d710f1a</td></tr>
+</table><p>
+</body>
+</html>
